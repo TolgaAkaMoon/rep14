@@ -7,18 +7,18 @@ Vi er bedre en alle andre så ingen ikke kan slå os i PvP i Minekraft
 - Side Register
 - Side Login
 
-##Bahman
+## Bahman
 - Profil
 - Side Profil Favoritter
 - Side Profil Galleri
 
-##Tolga
+## Tolga
 - Navbar 
 - Side Oplev København
 - Side Besked panel
 - Side UrbanAxis kort
 
-##Benjamin
+## Benjamin
 - Rating
 - Profil Om
 - Detalje side
