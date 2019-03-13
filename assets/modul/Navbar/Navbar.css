@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar__div {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #431c60;
+    width: 100%;
+    height: 56px;
+}
+
+.navbar__unsorted--list {
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar__unsorted--anker {
+    margin-right: 25px;
+}
+
+.navbar__unsorted--image {
+    padding-top: 5px;
+    height: 20px;
+}
