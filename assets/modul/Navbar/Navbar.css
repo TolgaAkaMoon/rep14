@@ -26,7 +26,22 @@ body {
     margin-right: 25px;
 }
 
-.navbar__unsorted--image {
+.navbar__unsorted--home {
+    padding-top: 5px;
+    height: 20px;
+}
+
+.navbar__unsorted--map {
+    padding-top: 5px;
+    height: 20px;
+}
+
+.navbar__unsorted--profile {
+    padding-top: 5px;
+    height: 20px;
+}
+
+.navbar__unsorted--home {
     padding-top: 5px;
     height: 20px;
 }
