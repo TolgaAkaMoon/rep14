@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #261136;
+}
+
+@font-face {
+    font-family: Runda;
+    src: url("fonts/Runda.otf") format("opentype");
+}
+
+.search {
+    background-image: linear-gradient(to right, #7B1FA2 , #4527A0);
+    height: 131px;
+}
+
+.search__backbutton {
+    top: 30px;
+    left: 8px;
+    position: absolute;
+}
+
+.search__paragraph {
+    font-family: "Runda";
+    color: white;
+    font-size: 18px;
+    top: 17px;
+    left: 60px;
+    position: absolute;
+}
+
+.search__box {
+    position: absolute;
+    left: 16px;
+    top: 65px;
+    height: 48px;
+    width: 343px;
+    background-color: white;
+    box-shadow: 0 8px 8px -7px black;
+}
+
+.search__box--input {
+    font-family: "Runda";
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    height: 40px;
+    margin-left: 54px;
+    margin-top: 3px;
+}
+
+.search__box--button{
+    position: absolute;
+    height: 16px;
+    top: 15px;
+    left: 20px;
+    width: 16px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: url("../img/search.png");   
+}
+
+/* Mid / Main section of page */
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 18px;
+}
+
+.main__box {
+    background-color: white;
+    height: 200px;
+    width: 162px;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.main__box__img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.main_box_paragraph {
+    position: absolute;
+    bottom: 7px;
+    font-size: 14;
+    font-family: "Runda";
+    padding-left: 10px;
+}
+
+.main__box__stars {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 6px;
+}
+
+.main__midbox {
+    background-color: white;
+    width: 340px;
+    height: 437px;
+    grid-column: 1 / 3;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.main__midbox__img {
+    width: 340px;
+}
+
+.main__midbox__psponsor {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #AAB5E0;
+    position: absolute;
+    right: 15px;
+}
+
+.main__midbox__pairport {
+    font-size: 20px;
+    color: black;
+    font-family: "Runda";
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.main__midbox__pretter {
+    font-size: 14px;
+    color: #CCCCCC;
+    font-family: "Runda";
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+/* Copyright */
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    margin-top: 14px;
+}
+
+.copyright__paragraph {
+    position: absolute;
+    left: 125px;
+    color: white;
+}
+
+/* Iconer! */
+.navbar__unsorted--home {
+    opacity: 1;
+}
