@@ -16,32 +16,47 @@ body {
     height: 56px;
 }
 
+.navbar__unsorted {
+    padding-left: 10px;
+}
+
 .navbar__unsorted--list {
     display: inline;
-    text-decoration: none;
     list-style-type: none;
 }
 
 .navbar__unsorted--anker {
-    margin-right: 25px;
+    margin-right: 33px;
 }
 
+/* Iconer! */
 .navbar__unsorted--home {
     padding-top: 5px;
     height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
 }
 
 .navbar__unsorted--map {
     padding-top: 5px;
     height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
 }
 
 .navbar__unsorted--profile {
     padding-top: 5px;
     height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
 }
 
-.navbar__unsorted--home {
+.navbar__unsorted--heart {
     padding-top: 5px;
     height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+/* Skygge! */
+.navbar__shadow {
+    opacity: 0.65;
+    position: fixed;
+    bottom: 55.8px;
 }
