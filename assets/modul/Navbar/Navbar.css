@@ -1,0 +1,60 @@
+
+/* Navbar */
+
+.navbar {
+    margin: 0;
+}
+
+.navbar__div {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #431c60;
+    width: 100%;
+    height: 56px;
+}
+
+.navbar__unsorted {
+    padding-left: 10px;
+}
+
+.navbar__unsorted--list {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar__unsorted--anker {
+    margin-right: 33px;
+}
+
+/* Iconer! */
+.navbar__unsorted--home {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--map {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--profile {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--heart {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+/* Skygge! */
+.navbar__shadow {
+    opacity: 0.65;
+    position: fixed;
+    bottom: 55.8px;
+}

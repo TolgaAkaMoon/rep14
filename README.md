@@ -13,12 +13,12 @@ Vi er bedre en alle andre så ingen ikke kan slå os i PvP i Minekraft
 - Side Profil Galleri
 
 ## Tolga
-- Navbar 
+- Navbar FÆRDIG
 - Side Oplev København
 - Side Besked panel
 - Side UrbanAxis kort
 
 ## Benjamin
-- Rating
+- Rating FÆRDIG
 - Profil Om
 - Detalje side
