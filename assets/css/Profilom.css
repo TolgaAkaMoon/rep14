@@ -72,23 +72,49 @@ body{
 .menu__a-ative{
     text-decoration: none;
     color: white;
-    border-bottom: solid 5px white;
+    border-bottom: solid 1px white;
 }
 
 .ProfileContent{
-    margin: 20px;
+    margin: 30px;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 5% 95%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
-.ProfileContent__p{
     color: white;
 }
+
 
 .ProfileContent__p-College{
     grid-row: 1;
     grid-column: 1 / 4;
     border-bottom: solid 1px #8B8B8B;
-    margin-bottom: 20px
+    color: #AAB5E0;
+}
+
+.ProfileContent__img-globe{
+    margin-top: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ProfileContent__p-kontakt{
+    margin-top: 15px;
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    color: white;
+    margin-left: 20px;
+}
+
+.ProfileContent__img-Email{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 20px;
+}
+
+.ProfileContent__p-Email{
+    grid-column: 2 / span 4;
+    grid-row: 3;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
 }
