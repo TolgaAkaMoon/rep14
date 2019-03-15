@@ -1,0 +1,88 @@
+.content{
+    background-color: #750aaa;
+}
+.profile-nav {
+    background-color: #65158d;
+}
+.mainimg  {
+    display: grid;
+    grid-template-columns: 20% 80%;
+   
+}
+.mainimg  img{
+    grid-column-start: 2;
+
+}
+/*...... P  ......*/
+
+.p1 {
+    display: grid;
+    color: white;
+}
+.p1 p {
+grid-column-start: 2;
+
+}
+
+.p2{
+    display: grid;
+    color: white;
+}
+.p2 p{
+    grid-column-start: 2;
+    margin: 0;
+    
+}
+/*..... BUTTON.....*/
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+#besked  {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: center;
+}
+#second  {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: center;
+}
+#besked button {
+    background-color: #450466;
+    color: white;
+    bordeR: 1px solid #3a0555; padding:10px; 
+   
+}
+#second button {
+    border: 1x solid #65158d; padding:5px 20px 5px 20px;
+   
+}
+/* .......Profile-nav  ...*/
+.profile-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.profile-nav {
+text-align: center;
+    list-style: none;
+    height: 75px;
+}
+
+#li3 a{
+    color: white;
+}
+
+/*......Images .....*/
+ 
+.profile-images {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       background-color: #270638;
+       width: 100%;
+   }
+
