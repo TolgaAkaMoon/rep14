@@ -1,27 +1,20 @@
 
-form {
-    text-align: center;
-}
-
 input {
     display: flex;
     border : 1px solid;
     border-color: #4826A0;
     width: 320px;
+    height: 26px;
     padding: 10px;
     background: #261136;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .imput__title {
     color: white;
 }
 
-.label__title {
+.label__title-p {
     display: flex;
-    text-align: start;
-}
-
-.label__title-P {
-    margin: 0 0 3px 10px;
+    margin: 0 auto 5px 10px;
 }
