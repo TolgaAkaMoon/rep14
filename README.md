@@ -14,7 +14,7 @@ Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 
 ## Tolga
 - Navbar FÆRDIG
-- Side Oplev København
+- Side Oplev København FÆRDIG
 - Side Besked panel
 - Side UrbanAxis kort
 
