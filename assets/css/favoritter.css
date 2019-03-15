@@ -1,0 +1,104 @@
+body{
+    background-color:#56087c;
+    
+}
+main {
+ text-align: center;
+}
+
+
+@media  (max-width: 700px){
+    
+    main {
+      
+        text-align: center;
+    }
+    main img {
+        width: 100%;
+    }
+    #b {
+        color: white;
+    }
+    .main{
+        display: inline-block
+    }
+    .main p {
+        color: white;
+    }
+    .card {
+        display: flex;
+        margin-left: 40px;
+    }
+    .card button {
+        border: solid 1px #3d0658; width:140px; height: 47px;
+    }
+   .profile-nav nav ul {
+       padding:0;
+       list-style: none;
+       align-self: flex-end;
+       display: flex; 
+       justify-items: center;
+       justify-content: space-between;
+       padding: 5px 25px 5px 25px;
+   }
+   nav li a {
+       text-decoration: none;
+       color: white;
+   }
+   .profile-imgaes {
+      
+       margin: 0 auto;
+   }
+    .profile-images a {
+      
+        border: 0.05px #120618 solid;
+    
+
+    } 
+      .profile-images figure {
+          
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+       #img1 {
+         grid-column-start: 1;
+         grid-column-end: 2;
+     }
+      #ul1 {
+        border: 1px #500b72 solid; height:35px;
+        background-color: #390357;
+        padding-right: 10px;
+    }
+    .profile-images {
+        background-color: #270638;
+        height: 600px;
+    }
+    .profile-images a {
+        border: 1px #120618 solid;
+
+    }
+
+    #ul1{
+        padding-bottom: 0;
+    }
+    main {
+        
+        margin: 0 auto;
+    }
+    #besked button {
+        background: #380652;
+    }
+    .card div button {
+        color: white;
+    }
+    #second button  {
+        background-color: #500b72;
+    }
+    .licolor a {
+        color:#781da5;
+    }
+}
+ 
+
+
+
