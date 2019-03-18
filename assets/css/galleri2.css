@@ -32,6 +32,9 @@ grid-column-start: 2;
 #p2{
     font-size: 15px;
 }
+#p2 p {
+    margin-top: 0;
+}
 
 .p2{
     display: grid;
