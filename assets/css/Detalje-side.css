@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #261136;
+}
+
+.Detalje{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.Detalje__Img{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Detalje__Goback{
+    position: absolute;
+    margin: 5% 2%;
+    z-index: 4;
+}
+
+.info{
+    margin: 10%;
+}
+
+.info__h2{
+    color: white;
+}
+
+.info__p{
+    color: white;
+    margin: 5% 0;
+}
+
+.kommentarer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 0 20px 0;
+}
+
+.kommentarer__profilimg{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.kommentarer__h2{
+    color: white;
+    font-size: 15px;
+}
+
+.kommentarer__Message{
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.kommentarer_navn{
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    display: flex;
+}
+
+.kommentarer__rating{
+    margin: 3px 0 0 8px;
+    height: 11px;
+    width: 80px;
+}
+
+.kommentarer__p{
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+    color: #8B8B8B;
+    font-size: 11px;
+    margin: 20px 0 0 0
+}
+
+.break{
+    background: #742383;
+    height: 1.5px;
+    width: 100%;
+    margin: 10px 0;
+}

@@ -1,8 +1,8 @@
 # rep14
-Vi er bedre en alle andre så ingen ikke kan slå os i PvP i Minekraft
+Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 
 ## Mikkel
-- Form
+- Form FÆRDIG
 - Side Start
 - Side Register
 - Side Login
@@ -14,11 +14,11 @@ Vi er bedre en alle andre så ingen ikke kan slå os i PvP i Minekraft
 
 ## Tolga
 - Navbar FÆRDIG
-- Side Oplev København
+- Side Oplev København FÆRDIG
 - Side Besked panel
 - Side UrbanAxis kort
 
 ## Benjamin
 - Rating FÆRDIG
-- Profil Om
+- Profil Om FÆRDIG
 - Detalje side
