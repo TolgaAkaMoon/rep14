@@ -1,0 +1,98 @@
+
+.header {
+    display: grid;
+    grid-template-columns: 15% 35% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    background-color: #a133eb;
+    border: 1px #8d1bd8 solid;
+}
+.a{
+    margin: 10px 10px;
+}
+.chatroom {
+
+
+    display: grid;
+    grid-template-columns: 18% 16% 16% 27% 16% 8%;
+    grid-template-rows: 30px 70px 70px 98px 60px 98px;
+    background-color: #220833;
+}
+#empty {
+    border: 1px solid; 
+}
+#empty2 {
+    border: 1px solid; 
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8; 
+}
+#p1{
+    background-color: #7923b3;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 13px;
+    -moz-border-radius: 90px 90px 0px 90px;
+    -webkit-border-radius: 47px 47px 47px 0px;
+    border: 30px solid #7b1abb;
+}
+#p2{
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 13px;
+    border-radius: 90px 90px 0px 90px;
+    -webkit-border-radius: 56px 56px 10px 56px;
+    border: 30px solid gray;
+    margin-top: 15px;
+}
+#p3{
+    color: white;
+    background-color: #7815bb;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    -moz-border-radius: 90px 90px 0px 90px;
+    -webkit-border-radius: 56px 56px 56px 0px;
+    font-size: 13px;
+    border: 37px solid #7b1abb;
+    margin-top: 10px;
+}
+#p4{
+    background-color: gray;
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 13px;
+    -moz-border-radius: 90px 90px 0px 90px;
+    -webkit-border-radius: 90px 90px 0px 90px;
+    border: 23px solid gray;
+    margin-top: 15px;
+    padding-bottom: 8px;
+}
+#p5{
+   grid-column-start: 2;
+   grid-column-end: 5;
+   grid-row-start: 6;
+   grid-row-end: 7;
+    border: 23px solid gray;
+    background-color: #7815bb;
+    -moz-border-radius: 90px 90px 0px 90px;
+    -webkit-border-radius: 56px 56px 56px 0px;
+    font-size: 13px;
+    border: 37px solid #7b1abb;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
