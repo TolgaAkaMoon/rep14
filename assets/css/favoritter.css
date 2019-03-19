@@ -1,104 +1,123 @@
-body{
-    background-color:#56087c;
-    
-}
-main {
- text-align: center;
+body {
+    background-color: #7005a5;
 }
 
+.content{
+    background-color: #750aaa;
+}
 
-@media  (max-width: 700px){
-    
-    main {
-      
-        text-align: center;
-    }
-    main img {
-        width: 100%;
-    }
-    #b {
-        color: white;
-    }
-    .main{
-        display: inline-block
-    }
-    .main p {
-        color: white;
-    }
-    .card {
-        display: flex;
-        margin-left: 40px;
-    }
-    .card button {
-        border: solid 1px #3d0658; width:140px; height: 47px;
-    }
-   .profile-nav nav ul {
-       padding:0;
-       list-style: none;
-       align-self: flex-end;
-       display: flex; 
-       justify-items: center;
-       justify-content: space-between;
-       padding: 5px 25px 5px 25px;
-   }
-   nav li a {
-       text-decoration: none;
-       color: white;
-   }
-   .profile-imgaes {
-      
-       margin: 0 auto;
-   }
-    .profile-images a {
-      
-        border: 0.05px #120618 solid;
-    
+.profile-nav {
+    background-color: #65158d;
+}
 
-    } 
-      .profile-images figure {
-          
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-      }
-       #img1 {
-         grid-column-start: 1;
-         grid-column-end: 2;
-     }
-      #ul1 {
-        border: 1px #500b72 solid; height:35px;
-        background-color: #390357;
-        padding-right: 10px;
-    }
-    .profile-images {
-        background-color: #270638;
-        height: 600px;
-    }
-    .profile-images a {
-        border: 1px #120618 solid;
+.mainimg  {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
 
-    }
+.mainimg  img{
+    grid-column-start: 2;
+}
 
-    #ul1{
-        padding-bottom: 0;
-    }
-    main {
-        
-        margin: 0 auto;
-    }
-    #besked button {
-        background: #380652;
-    }
-    .card div button {
-        color: white;
-    }
-    #second button  {
-        background-color: #500b72;
-    }
-    .licolor a {
-        color:#781da5;
-    }
+/*...... P  ......*/
+.p1 {
+    display: grid;
+    color: white;
+    background-color: #750aaa;
+}
+
+.p1 p {
+grid-column-start: 2;
+}
+
+#p1{
+    font-size: 20px;
+}
+
+#p2{
+    font-size: 15px;
+}
+
+#p2 p {
+    margin-top: 0;
+}
+
+.p2{
+    display: grid;
+    color: white;
+}
+
+.p2 p{
+    grid-column-start: 2;
+    margin: 0; 
+}
+
+.menu { 
+    margin: 0;
+}
+
+/*..... BUTTON.....*/
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px;
+    background-color: #750aaa
+}
+
+.card button {
+background-color: #65158d;
+height: 50px;
+width: 160px;
+}
+
+#besked button {
+    background-color: #450466;
+    color: white;
+    border: 1px solid #3a0555;  
+    border: 3px solid red; padding-right: 10px;
+}
+
+#besked{
+    background-color:#41055f;
+    color: white;
+    border: solid 1px #450466; margin-right: 10px;
+}
+
+#second{ 
+    color:white;
+margin-left: 10px;
+border: 1px solid rgb(138, 4, 206);
 }
  
+.profile-images {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       background-color: #270638; 
+   }
 
+   .profile-images--size {
+       width:110px;
+   }
 
+   .menu{
+    background: #431C60;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+    margin-bottom: 1px;
+}
+
+.menu__a{
+    text-decoration: none;
+    color: #A648EB;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu__a-ative{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px white;
+}
 
