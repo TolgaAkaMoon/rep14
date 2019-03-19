@@ -1,3 +1,7 @@
+*{
+    
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +13,6 @@ body {
     src: url("fonts/Runda.otf") format("opentype");
 }
 
-/* Top search box */
 .search {
     background-image: linear-gradient(to right, #7B1FA2 , #4527A0);
     height: 131px;
