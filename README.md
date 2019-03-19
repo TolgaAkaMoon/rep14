@@ -8,9 +8,9 @@ Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 - Side Login
 
 ## Bahman
-- Profil
-- Side Profil Favoritter
-- Side Profil Galleri
+- Profil FÆRDIG
+- Side Profil Favoritter FÆRDIG
+- Side Profil Galleri FÆRDIG
 
 ## Tolga
 - Navbar FÆRDIG
