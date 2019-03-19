@@ -1,7 +1,18 @@
+html {
+    height: 100%;
+}
+
 body {
     background: url(/assets/img/background-main.png);
     background-size: cover;
     background-color: #301545;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 320px;
+    padding: 0 30px 0 30px;
 }
 
 figure {
@@ -11,21 +22,22 @@ figure {
 }
 
 .figure__img {
-    width: 60px;
-    height: 75px;
+    width: 65px;
+    height: 80px;
 }
 
 .figure__title {
     align-self: center;
-    margin: 0;
+    margin: 0 0 0 10px;
+    
 }
 
 .button__wrapper {
     display: flex;
     justify-content: center;
-    width: 343px;
+    width: 320px;
     height: 48px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 .button__register {
@@ -36,3 +48,16 @@ figure {
     padding: 0;
     color: white;
 }
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
