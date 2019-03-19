@@ -1,0 +1,21 @@
+input {
+    display: flex;
+    border: 1px solid;
+    border-color: #4826A0;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #261136c2;
+    margin: 0 auto 20px;
+}
+
+.imput__title {
+    color: white;
+    width: 320px;
+}
+
+.label__title-p {
+    display: flex;
+    margin: 0 auto 5px 0;
+}
