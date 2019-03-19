@@ -1,37 +1,43 @@
 body {
     background-color: #7005a5;
 }
+
 .content{
     background-color: #750aaa;
 }
+
 .profile-nav {
     background-color: #65158d;
 }
+
 .mainimg  {
     display: grid;
     grid-template-columns: 20% 80%;
-   
 }
+
 .mainimg  img{
     grid-column-start: 2;
-
 }
-/*...... P  ......*/
 
+/*...... P  ......*/
 .p1 {
     display: grid;
     color: white;
     background-color: #750aaa;
 }
+
 .p1 p {
 grid-column-start: 2;
 }
+
 #p1{
     font-size: 20px;
 }
+
 #p2{
     font-size: 15px;
 }
+
 #p2 p {
     margin-top: 0;
 }
@@ -40,32 +46,37 @@ grid-column-start: 2;
     display: grid;
     color: white;
 }
+
 .p2 p{
     grid-column-start: 2;
-    margin: 0;
-    
+    margin: 0; 
 }
-.menu { margin: 0;}
+
+.menu { 
+    margin: 0;
+}
+
 /*..... BUTTON.....*/
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 6px;
     background-color: #750aaa
-    
 }
+
 .card button {
 background-color: #65158d;
 height: 50px;
 width: 160px;
 }
+
 #besked button {
     background-color: #450466;
     color: white;
     border: 1px solid #3a0555;  
     border: 3px solid red; padding-right: 10px;
-   
 }
+
 #besked{
     background-color:#41055f;
     color: white;
@@ -75,34 +86,19 @@ width: 160px;
 #second{ 
     color:white;
 margin-left: 10px;
-border: 1px solid rgb(138, 4, 206);}
-
-/* .......Profile-nav  
-.profile-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+border: 1px solid rgb(138, 4, 206);
 }
-
-.profile-nav {
-text-align: center;
-    list-style: none;
-    height: 75px;
-}
-
-#li3 a{
-    color: white;
-}*/
-
-/*......Images .....*/
  
 .profile-images {
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
        background-color: #270638; 
    }
+
    .profile-images--size {
        width:110px;
    }
+
    .menu{
     background: #431C60;
     display: grid;
@@ -110,7 +106,6 @@ text-align: center;
     grid-template-rows: 1fr;
     height: 50px;
     margin-bottom: 1px;
-    
 }
 
 .menu__a{
