@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #261136;
 }
 
 /* Top section */
@@ -19,9 +20,9 @@ body {
 .search__paragraph {
     font-family: "Runda";
     color: white;
-    font-size: 18px;
-    top: 17px;
-    left: 60px;
+    font-size: 36px;
+    top: 20px;
+    left: 35px;
     position: absolute;
 }
 
