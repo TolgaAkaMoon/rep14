@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top section */
+.search {
+    background-image: url("../img/Image\ 5.png");
+    height: 357px;
+    opacity: 0.6;
+}
+
+.backbutton {
+    top: 30px;
+    left: 8px;
+    position: absolute;
+}
+
+.search__paragraph {
+    font-family: "Runda";
+    color: white;
+    font-size: 18px;
+    top: 17px;
+    left: 60px;
+    position: absolute;
+}
+
+/* Navbar */
+.navbar {
+    margin: 0;
+}
+
+.navbar__div {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #431c60;
+    width: 100%;
+    height: 56px;
+}
+
+.navbar__unsorted {
+    padding-left: 10px;
+}
+
+.navbar__unsorted--list {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar__unsorted--anker {
+    margin-right: 33px;
+}
+
+/* Iconer! */
+.navbar__unsorted--home {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--map {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 1; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--profile {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+.navbar__unsorted--heart {
+    padding-top: 5px;
+    height: 20px;
+    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
+}
+
+/* Skygge! */
+.navbar__shadow {
+    opacity: 0.65;
+    position: fixed;
+    bottom: 55.8px;
+}
