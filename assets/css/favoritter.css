@@ -52,10 +52,6 @@ grid-column-start: 2;
     margin: 0; 
 }
 
-.menu { 
-    margin: 0;
-}
-
 /*..... BUTTON.....*/
 .card {
     display: grid;
@@ -99,13 +95,12 @@ border: 1px solid rgb(138, 4, 206);
        width:110px;
    }
 
-   .menu{
+.menu{
     background: #431C60;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 50px;
-    margin-bottom: 1px;
 }
 
 .menu__a{

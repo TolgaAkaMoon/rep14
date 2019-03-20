@@ -10,6 +10,12 @@ body {
     background-color: #65158d;
 }
 
+.Galleri__Goback{
+    position: absolute;
+    margin: 5% 2%;
+    z-index: 4;
+}
+
 .mainimg  {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -48,10 +54,6 @@ grid-column-start: 2;
 
 .p2 p{
     grid-column-start: 2;
-    margin: 0;
-}
-
-.menu { 
     margin: 0;
 }
 
@@ -97,13 +99,12 @@ border: 1px solid rgb(138, 4, 206);
        width:91px;
    }
    
-   .menu{
+.menu{
     background: #431C60;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 50px;
-    margin-bottom: 5px;
 }
 
 .menu__a{
