@@ -3,9 +3,9 @@ Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 
 ## Mikkel
 - Form FÆRDIG
-- Side Start
-- Side Register
-- Side Login
+- Side Start FÆRDIG
+- Side Register FÆRDIG
+- Side Login FÆRDIG
 
 ## Bahman
 - Profil FÆRDIG
@@ -15,7 +15,7 @@ Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 ## Tolga
 - Navbar FÆRDIG
 - Side Oplev København FÆRDIG
-- Side Besked panel
+- Side Besked panel FÆRDIG
 - Side UrbanAxis kort
 
 ## Benjamin
