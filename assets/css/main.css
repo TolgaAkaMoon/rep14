@@ -1,37 +1,59 @@
-.p {
-    font-size: 10px;
-    color: white;
-    
+p {
+  font-size: 10px;
+  color: white;
+}
+
+.h1 {
+  color: white;
+  font-size: 25px;
 }
 
 .h2 {
-    color: white;
-    font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
+
 @font-face {
+  font-family: Runda;
+  src: url(/assets/css/fonts/Runda.otf) format("opentype")
+
+}
+
+.runda-normal {
     font-family: Runda;
-    src: url(/assets/css/fonts/Runda.otf) format("opentype")
+}
 
-  }
+.section__register-dark {
+  font-family: Runda;
+  font-size: 12px;
+  color: #a1a1a1;
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
 
-  .runda-normal {
-      font-family: Runda;
-  }
+.section__glemt-dark {
+  font-family: Runda;
+  font-size: 12px;
+  color: #a1a1a1;
+  padding: 10px 0 5px 0;
+  margin: 0 0 96px;
+}
 
-  .section__register-dark {
-    font-family: Runda;
-    font-size: 12px;
-    color: #a1a1a1;
-    padding: 10px 0 5px 0;
-    margin: 0;
-  }
+.section__profil-dark {
+  font-family: Runda;
+  font-size: 12px;
+  color: #a1a1a1;
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
 
-  .section__register-darkunderline {
-    font-family: Runda;
-    font-size: 12px;
-    color: #a1a1a1;
-    padding: 5px 0 10px 0;
-    margin: 0;
-    text-decoration: underline;
-  }
+.section__register-darkunderline {
+  font-family: Runda;
+  font-size: 12px;
+  color: #a1a1a1;
+  padding: 5px 0 10px 0;
+  margin: 0;
+  text-decoration: underline;
+}
+
   
