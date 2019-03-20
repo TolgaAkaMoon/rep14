@@ -20,7 +20,7 @@ body {
 
 .mainimg  {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 80%;
 }
 
 .mainimg  img{
