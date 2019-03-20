@@ -5,6 +5,12 @@
 
 body{
     background: #261136;
+    font-family: "Runda"
+}
+
+@font-face {
+    font-family: Runda;
+    src: url("../../css/fonts/Runda.otf") format("opentype");
 }
 
 .Profil{
@@ -118,4 +124,9 @@ body{
     color: white;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+/* Iconer, Navbar hvid */
+.navbar__unsorted--profile {
+    opacity: 1;
 }

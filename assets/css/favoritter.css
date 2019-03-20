@@ -1,5 +1,13 @@
 body {
     background-color: #7005a5;
+    margin: 0;
+    padding: 0;
+    font-family: "Runda";
+}
+
+@font-face {
+    font-family: Runda;
+    src: url("../../css/fonts/Runda.otf") format("opentype");
 }
 
 .content{
@@ -61,9 +69,9 @@ grid-column-start: 2;
 }
 
 .card button {
-background-color: #65158d;
-height: 50px;
-width: 160px;
+    background-color: #65158d;
+    height: 50px;
+    width: 160px;
 }
 
 #besked button {
@@ -87,12 +95,16 @@ border: 1px solid rgb(138, 4, 206);
  
 .profile-images {
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr;
+       padding-left: 10px;
        background-color: #270638; 
+       margin-bottom: 55px;
    }
 
    .profile-images--size {
-       width:110px;
+       width: 170px;
+       margin-top: 5px;
+       padding-bottom: 5px;
    }
 
 .menu{
@@ -101,6 +113,8 @@ border: 1px solid rgb(138, 4, 206);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 50px;
+    margin: 0;
+    padding-left: 1px;
 }
 
 .menu__a{
@@ -116,3 +130,7 @@ border: 1px solid rgb(138, 4, 206);
     border-bottom: solid 1px white;
 }
 
+/* Iconer, Navbar hvid */
+.navbar__unsorted--heart {
+    opacity: 1;
+}

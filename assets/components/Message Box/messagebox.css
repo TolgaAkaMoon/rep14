@@ -58,3 +58,8 @@ body {
     outline: none;
     background: url("../../img/sendplane.png");   
 }
+
+/* Iconer, Navbar hvid */
+.navbar__unsorted--map {
+    opacity: 1;
+}
