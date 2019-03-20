@@ -26,6 +26,52 @@ body {
     position: absolute;
 }
 
+/* Mid section */
+.mid__div {
+    padding-left: 30px;
+}
+
+.mid__picture {
+    position: absolute;
+    top: 220px;
+    left: 21px;
+}
+
+.mid__div--text {
+    color: #8E8E8E;
+    font-family: "Runda";
+    font-size: 14px;
+    margin-top: 170px;
+}
+
+.mid__div--img {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.mid__div--textcount {
+    font-family: "Runda";
+    color: white;
+    font-size: 36px;
+    top: 20px;
+    left: 35px;
+}
+
+.mid__div--lines {
+    float: right;
+    width: 230px;
+}
+
+.mid__div--paragrapth {
+    font-family: "Runda";
+    color: white;
+    float: right;
+    padding-right: 130px;
+}
+
 /* Navbar */
 .navbar {
     margin: 0;
