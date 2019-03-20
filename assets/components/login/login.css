@@ -46,7 +46,12 @@ figure {
     background-image: linear-gradient(to left bottom, #4527a0, #5426a1, #6224a2, #6f22a2, #7b1fa2); 
     border: none;
     padding: 0;
+}
+
+.button__register-p{
     color: white;
+    text-align: center;
+    font-size: 15px;
 }
 
 fieldset {
