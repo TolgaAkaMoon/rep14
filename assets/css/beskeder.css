@@ -1,16 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #220833;
+}
+
 
 .header {
     display: grid;
     grid-template-columns: 15% 35% 25% 25%;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: 100px;
+    height: 150px;
     font-size: 20px;
-    background-color: #a133eb;
-    border: 1px #8d1bd8 solid;
+    background-image: linear-gradient(to right, #4527a0,#791fa2);
+  
 }
 .a{
     margin: 10px 10px;
+}
+.b {
+    color: white;
 }
 .chatroom {
 
@@ -99,6 +108,7 @@
     margin-top: 15px;
     padding-bottom: 8px;
     margin-bottom: 10px;
+    color: white;
 }
 #img1 {
     display: grid;
@@ -136,4 +146,63 @@
 background-color: black;
 grid-column-start: 1;
 grid-column-end: 2;
+}
+/*-----------*/
+
+
+
+@font-face {
+   font-family: Runda;
+   src: url("/assets/css/fonts/Runda.otf") format("opentype");
+}
+
+.box {
+   background-color: #431C60;
+   height: 56px;
+   width: 100%;
+   position: absolute;
+   bottom: 1px;
+}
+
+.box__purple {
+   background-color: purple;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 7px;
+   left: 30px;
+}
+
+.box__purple--plus {
+   color: white;
+   font-size: 50px;
+   font-family: "Runda";
+   position: absolute;
+   bottom: -56px;
+   left: 5px;
+}
+
+.box__message__form--input {
+   font-family: "Runda";
+   font-size: 16px;
+   border: 0;
+   outline: none;
+   height: 39px;
+   margin-left: 54px;
+   width: 275px;
+   border-radius: 50px;
+   padding-left: 6px;
+}
+
+.box__message__form--button {
+   position: absolute;
+   top: 10px;
+   left: 290px;
+   height: 22px;
+   width: 22px;
+   padding: 0;
+   border: none;
+   outline: none;
+   background: url("/assets/img/sendplane.png");
 }

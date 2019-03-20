@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="beskeder.css">
+    <link rel="stylesheet" href="assets/css/beskeder.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,22 +17,31 @@
         <div class="f"></div>
         <div class="g"></div>
         <div class="h"></div>
-        </div>
+    </div>
         <div class="chatroom">
             <div id="empty">.</div>
             <div id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-            <img id="img1" src="../img/Avatar3.png">
+            <img id="img1" src="assets/img/Avatar3.png">
             <div id="p2">Sed do Lorem ipsum dolor sit amet consectetur.</div>
             
             <div id="p3">Duis aute irure Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
-            <img id="img2" src="../img/Avatar3.png">
+            <img id="img2" src="assets/img/Avatar3.png">
             <div id="p4">Excepture sint occaecat</div> 
             <div id="p5">Excepteur sint occaecat Lorem ipsum dolo adipisicing elit. Ducimus!</div>
-            <img id="img3" src="../img/Avatar3.png">
+            <img id="img3" src="assets/img/Avatar3.png">
             <div id="empty2">.</div>
         </div>
-        <div class="bottom-search">
-            <img src="../img/Udklip.PNG.nyt.PNG">
+
+        <div class="box">
+            <div class="box__purple">
+                <p class="box__purple--plus">+</p>
+                <div class="box__message">
+                <form action="box__message__form">
+                    <button type="submit" class="box__message__form--button"><i class="box__message__form--submit"></i></button>
+                    <input class="box__message__form--input" type="text" placeholder="Send en besked...." name="send">
+                </form>
+                </div>
+            </div>
         </div>
 </body>
 </html>
