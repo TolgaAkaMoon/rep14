@@ -10,6 +10,12 @@ body {
     background-color: #65158d;
 }
 
+.Galleri__Goback{
+    position: absolute;
+    margin: 5% 2%;
+    z-index: 4;
+}
+
 .mainimg  {
     display: grid;
     grid-template-columns: 20% 80%;
