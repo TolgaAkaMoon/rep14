@@ -13,14 +13,13 @@ body {
     height: 150px;
     font-size: 20px;
     background-image: linear-gradient(to right, #4527a0,#791fa2);
-  
 }
-.a{
-    margin: 10px 10px;
+
+.header--img {
+    position: absolute;
+    top: 1px;
 }
-.b {
-    color: white;
-}
+
 .chatroom {
 
 
