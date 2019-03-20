@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url(/assets/img/background-main.png);
+    background: url(./assets/img/background-main.png);
     background-size: cover;
     background-color: #301545;
     margin: 0;
@@ -53,6 +53,12 @@ main {
     border: none;
     padding: 0;
     color: white;
+}
+
+.button__register-p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
 
 fieldset {
