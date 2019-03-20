@@ -16,7 +16,7 @@ Vi er bedre ene alle andre så ingen kan slå os i PvP i Minekraft
 - Navbar FÆRDIG
 - Side Oplev København FÆRDIG
 - Side Besked panel FÆRDIG
-- Side UrbanAxis kort
+- Side UrbanAxis kort FÆRDIG
 
 ## Benjamin
 - Rating FÆRDIG
