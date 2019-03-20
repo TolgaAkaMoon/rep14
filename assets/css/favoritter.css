@@ -1,5 +1,7 @@
 body {
     background-color: #7005a5;
+    margin: 0;
+    padding: 0;
 }
 
 .content{
@@ -88,7 +90,9 @@ border: 1px solid rgb(138, 4, 206);
 .profile-images {
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
+       padding-left: 10px;
        background-color: #270638; 
+       margin-bottom: 55px;
    }
 
    .profile-images--size {
@@ -101,6 +105,8 @@ border: 1px solid rgb(138, 4, 206);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 50px;
+    margin: 0;
+    padding-left: 1px;
 }
 
 .menu__a{
@@ -116,3 +122,7 @@ border: 1px solid rgb(138, 4, 206);
     border-bottom: solid 1px white;
 }
 
+/* Iconer, Navbar hvid */
+.navbar__unsorted--heart {
+    opacity: 1;
+}

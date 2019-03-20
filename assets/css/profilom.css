@@ -119,3 +119,8 @@ body{
     margin-left: 20px;
     margin-top: 20px;
 }
+
+/* Iconer, Navbar hvid */
+.navbar__unsorted--profile {
+    opacity: 1;
+}
