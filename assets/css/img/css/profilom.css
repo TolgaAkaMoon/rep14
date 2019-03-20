@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #261136;
+}
+
+.Profil{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    max-width: 100%;
+}
+
+.Profil__Img{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+}
+
+.Profil__Goback{
+    position: absolute;
+    margin: 5% 2%;
+    z-index: 4;
+}
+
+.Profil__shadow{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 2;
+}
+
+.Profil__Navn{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    margin: 10% 5%;
+    align-self: end;
+    color: white;
+    font-size: 20px;
+    font-family: Runda;
+}
+
+.Profil__Region{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    margin: 7% 5%;
+    align-self: end;
+    color: white;
+    font-size: 10px;
+    font-family: Runda;
+}
+
+.menu{
+    background: #431C60;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+}
+
+.menu__a{
+    text-decoration: none;
+    color: #A648EB;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu__a-ative{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+.ProfileContent{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 5% 95%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+.ProfileContent__p-College{
+    grid-row: 1;
+    grid-column: 1 / 4;
+    border-bottom: solid 1px #8B8B8B;
+    color: #AAB5E0;
+    margin-bottom: 10px;
+}
+
+.ProfileContent__img-globe{
+    margin-top: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ProfileContent__p-kontakt{
+    margin-top: 15px;
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    color: white;
+    margin-left: 20px;
+}
+
+.ProfileContent__img-Email{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 20px;
+}
+
+.ProfileContent__p-Email{
+    grid-column: 2 / span 4;
+    grid-row: 3;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
