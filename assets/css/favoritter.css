@@ -63,9 +63,9 @@ grid-column-start: 2;
 }
 
 .card button {
-background-color: #65158d;
-height: 50px;
-width: 160px;
+    background-color: #65158d;
+    height: 50px;
+    width: 160px;
 }
 
 #besked button {
@@ -89,14 +89,16 @@ border: 1px solid rgb(138, 4, 206);
  
 .profile-images {
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr;
        padding-left: 10px;
        background-color: #270638; 
        margin-bottom: 55px;
    }
 
    .profile-images--size {
-       width:110px;
+       width: 170px;
+       margin-top: 5px;
+       padding-bottom: 5px;
    }
 
 .menu{
