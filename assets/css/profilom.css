@@ -5,6 +5,12 @@
 
 body{
     background: #261136;
+    font-family: "Runda"
+}
+
+@font-face {
+    font-family: Runda;
+    src: url("../../css/fonts/Runda.otf") format("opentype");
 }
 
 .Profil{
