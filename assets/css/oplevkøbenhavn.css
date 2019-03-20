@@ -14,9 +14,10 @@ body {
     height: 131px;
 }
 
-.search__backbutton {
+.backbutton {
     top: 30px;
     left: 8px;
+    padding: 0;
     position: absolute;
 }
 

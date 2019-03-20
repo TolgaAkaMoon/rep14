@@ -12,12 +12,13 @@ body {
     position: relative;
 }
 
-.search__backbutton {
+.backbutton {
     top: 30px;
     left: 8px;
     padding: 0;
     position: absolute;
 }
+
 
 .search__paragrapth {
     margin: 0;
