@@ -23,7 +23,7 @@ body{
 
 .Detalje__Goback{
     position: absolute;
-    margin: 5% 2%;
+    margin: 8% 2%;
     z-index: 4;
 }
 
@@ -101,7 +101,8 @@ body{
     box-shadow: #000000;
     height: 245px;
     width: 335px;
-    margin: 40px auto;
+    margin: 70px auto;
+    margin-bottom: 80px;
 }
 
 .kommentarerrating__img{
@@ -142,4 +143,8 @@ body{
 
 .kommentarerrating__info-img{
     float: right;
+}
+
+.navbar__unsorted {
+    position: absolute;
 }

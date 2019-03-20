@@ -14,6 +14,13 @@ body {
     background-color: #750aaa;
 }
 
+.backbutton {
+    top: 30px;
+    left: 8px;
+    padding: 0;
+    position: absolute;
+}
+
 .profile-nav {
     background-color: #65158d;
 }
@@ -89,22 +96,30 @@ grid-column-start: 2;
 
 #second{ 
     color:white;
-margin-left: 10px;
-border: 1px solid rgb(138, 4, 206);
+    margin-left: 10px;
+    border: 1px solid rgb(138, 4, 206);
 }
  
+.section--linkto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #270638; 
+    margin-bottom: 55px;
+}
+
 .profile-images {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       padding-left: 10px;
-       background-color: #270638; 
-       margin-bottom: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 3px;
+    background-color: #270638; 
+    margin-bottom: 55px;
    }
 
    .profile-images--size {
-       width: 170px;
-       margin-top: 5px;
-       padding-bottom: 5px;
+    width: 170px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
    }
 
 .menu{
