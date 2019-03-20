@@ -6,22 +6,37 @@ body {
 
 /* Top section */
 .search {
-    background-image: url("../img/Image\ 5.png");
+    background-image: url("../img/imageb.png");
     height: 357px;
-    opacity: 0.6;
+    top: 0;
+    position: relative;
 }
 
-.backbutton {
+.search__backbutton {
     top: 30px;
     left: 8px;
+    padding: 0;
     position: absolute;
 }
 
-.search__paragraph {
+.search__paragrapth {
+    margin: 0;
+}
+
+.search__title {
     font-family: "Runda";
     color: white;
     font-size: 36px;
-    top: 20px;
+    top: 100px;
+    left: 35px;
+    position: absolute;
+}
+
+.search__title2 {
+    font-family: "Runda";
+    color: white;
+    font-size: 36px;
+    top: 140px;
     left: 35px;
     position: absolute;
 }
@@ -34,7 +49,7 @@ body {
 .mid__picture {
     position: absolute;
     top: 220px;
-    left: 21px;
+    left: 20px;
 }
 
 .mid__div--text {
@@ -49,15 +64,20 @@ body {
     height: 34px;
     width: 34px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 32px;
+    margin-top: 10px;
 }
 
 .mid__div--textcount {
     font-family: "Runda";
     color: white;
-    font-size: 36px;
-    top: 20px;
-    left: 35px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.mid__div--longline {
+    position: absolute;
+    left: 20px;
 }
 
 .mid__div--lines {
@@ -70,6 +90,17 @@ body {
     color: white;
     float: right;
     padding-right: 130px;
+}
+
+.mid__div__half {
+    position: absolute;
+    top: 510px;
+    right: 20px;
+    margin-top: 50px;
+}
+
+.mid__copyright {
+    margin-top: 50px;
 }
 
 /* Navbar */
@@ -100,28 +131,8 @@ body {
 }
 
 /* Iconer! */
-.navbar__unsorted--home {
-    padding-top: 5px;
-    height: 20px;
-    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
-}
-
 .navbar__unsorted--map {
-    padding-top: 5px;
-    height: 20px;
     opacity: 1; /* Sæt opacity til 1, for at gøre iconen hvid. */
-}
-
-.navbar__unsorted--profile {
-    padding-top: 5px;
-    height: 20px;
-    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
-}
-
-.navbar__unsorted--heart {
-    padding-top: 5px;
-    height: 20px;
-    opacity: 0.6; /* Sæt opacity til 1, for at gøre iconen hvid. */
 }
 
 /* Skygge! */
